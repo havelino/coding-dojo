@@ -1,12 +1,13 @@
 //reversestring.js
 
 function reverseString(word){
-    let arr = word.split('');
-    let reverse = '';
+    return word.split('').reverse().join('');
+    
+  /*  let reverse = '';
     for(let w of arr){
         reverse = w+reverse;
     }
-    return reverse; 
+    return reverse; */
 }
 
 
