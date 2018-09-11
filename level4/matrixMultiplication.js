@@ -7,7 +7,6 @@ function multiplication(a,b){
             for(let k=0;k<a[i].length;k++){
                 v+=a[i][k]*b[k][j];
             }
-            console.log('C('+i+','+j+')',v);
             row.push(v);
         }
         result.push(row);
