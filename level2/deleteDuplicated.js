@@ -2,8 +2,9 @@
 function deleteDuplicated(arr){
     let obj={};
     for(let k of arr){
-        obj['v'+k]=k;
+        obj[k]=k;
     }
+    console.log(obj)
     return Object.keys(obj).map(function(key) {
         return obj[key];
       });
