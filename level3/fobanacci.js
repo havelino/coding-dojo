@@ -6,4 +6,4 @@ function fobanacci(number){
     }
   }
 
-  console.log(fobanacci(4));
+  console.log(fobanacci(40));
